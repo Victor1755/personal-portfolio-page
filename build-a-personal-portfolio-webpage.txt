@@ -1,0 +1,143 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  crossorigin="anonymous"
+/>
+    <title id="title">Personal Portfolio Page</title>
+    <nav id="navbar">
+      <ul class="nav-bar">
+        <li><a href="#welcome-section" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <section id="welcome-section">
+      <h1 class="welcome-text">Hey I am Egbuna Victor</h1>
+      <h3 class="welcome-text">a web developer</h3>
+    </section>
+    <section id="projects">
+      <h2 class="project-title project-tile">These are some of my projects:</h2>
+     <div class="projects">
+      <a href="https://github.com/Victor1755/Survey-form" target="_blank" class="project-link"><img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" ">
+      <figcaption class="project-title">Survey Form</figcaption>
+      </a>
+      <a href="https://github.com/Victor1755/tribute-page" target="_blank" class="project-link"><img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" >
+      <figcaption class="project-title">Tribute Page</figcaption>
+      </a>
+      <a href="https://github.com/Victor1755/Technical-documentation-page" target="_blank" class="project-link"><img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" >
+      <figcaption class="project-title">Technical Documentation Page</figcaption>
+      </a>
+      <a href="https://github.com/Victor1755/product-landing-page" target="_blank" class="project-link"><img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" >
+      <figcaption class="project-title">Product Landing Page</figcaption>
+      </a>
+      <a href="https://github.com/Victor1755" id="show-all" target="_blank" class="project-link center">Show all</a>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Let's work together</h2>
+      <p>How do you take your coffee?</p>
+      <div class="social-icons">
+        <a id="profile-link" href="https://www.linkedin.com/in/egbuna-emeka-001a6621b" target="_blank"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+        <a id="profile-link" href="https://www.medium.com/@egbunavictor1" target="_blank"><i class="fab fa-medium"></i> Medium</a>
+        <a id="profile-link" href="https://github.com/Victor1755" target="_blank"><i class="fab fa-github"></i> Github</a>
+        <a id="profile-link" href="mailto:egbunavictor1@gmail.com"><i class="fas fa-at" target="_blank"></i> Send me a mail</a>
+        <a id="profile-link" href="tel:07054257667" target="_blank"><i class="fas fa-mobile-alt"></i> Call me</a>
+      </div>
+    </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  margin: 0
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 25px;
+  margin: 15px
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 19px
+}
+#navbar {
+  background-color: red;
+  width: 100vw;
+  position: fixed;
+}
+#welcome-section {
+  padding: 100px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+}
+.welcome-text {
+  position: relative;
+  top: 50%;
+  margin: auto;
+}
+.projects {
+  background-color: blue;
+  display: grid;
+  grid-template-columns: minmax(1rem, 30rem) minmax(1rem, 33.3rem);
+  padding: 10px;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  overflow: hidden;
+}
+#profile-link{
+  padding: auto;
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects {
+    grid-templa
+  }
+}
+.project-image {
+  width: 200px;
+  height: 200px;
+}
+#contact {
+  text-align: center;
+  padding: 50px;
+  position: relative;
+background-color: #777;
+color: #fff;
+}
+#profile-link {
+  color: #fff;
+  padding: 3px;
+}
+.project-link {
+  color: #fff;
+  text-decoration: none;
+}
+.project-link.center {
+  text-align: center;
+  border: 2px solid;
+}
+
+** end of undefined **
+
